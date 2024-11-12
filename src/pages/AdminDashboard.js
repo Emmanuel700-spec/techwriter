@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'; 
 import { useDispatch, useSelector } from 'react-redux';
-import { setUsers, setContent, setCategories } from '../redux/adminSlice';
-import { getUsers, getContent, getCategories, deactivateUser, approveContent, flagContent, createCategory, postContent, editContent } from '../services/api'; 
+import { setUsers, setContent, setCategories } from '../redux/adminSlice-tech';
+import { getUsers, getContent, getCategories, deactivateUser, approveContent, flagContent, createCategory, postContent, editContent } from '../services/api-tech'; 
 import { Button, Card, CardContent, Grid, Typography, TextField } from '@mui/material';
 import Sidebar from '../components/Sidebar';
 

@@ -5,7 +5,7 @@ import ManageContent from './pages/ManageContent';
 import ManageCategories from './pages/ManageCategories';
 import Sidebar from './components/Sidebar';
 import { Provider } from 'react-redux';
-import { store } from './redux/store';
+import { store } from './redux/store-tech';
 import { UserProvider } from './context/UserContext';
 import ProfilePage from './pages/ProfileCreation'; // Tech Writer Profile Creation
 import HomePage from './pages/TechWriterHomePage';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addContent } from '../redux/contentSlice';
+import { addContent } from '../redux/contentSlice-tech';
 
 const PostContent = () => {
   const dispatch = useDispatch();

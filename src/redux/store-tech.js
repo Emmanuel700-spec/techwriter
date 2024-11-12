@@ -1,7 +1,7 @@
 // src/store.js
 import { configureStore } from '@reduxjs/toolkit';
-import adminReducer from './adminSlice';
-import contentReducer from './contentSlice';
+import adminReducer from './adminSlice-tech';
+import contentReducer from './contentSlice-tech';
 
 // Configuring store with devTools support, middleware, and reducers
 export const store = configureStore({
